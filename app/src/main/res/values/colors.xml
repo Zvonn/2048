@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Цвета приложения -->
+    <color name="appBackground">#FAF8EF</color>
+    <color name="titleColor">#776E65</color>
+    <color name="scoreTextColor">#FFFFFF</color>
+    <color name="instructionsColor">#776E65</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <!-- Цвета фонов -->
+    <color name="backgroundColor">#BBADA0</color>
+    <color name="scoreBackground">#BBADA0</color>
+    <color name="buttonBackground">#8F7A66</color>
+
+    <!-- Цвета плиток -->
+    <color name="emptyTile">#CDC1B4</color>
+    <color name="tile2">#EEE4DA</color>
+    <color name="tile4">#EDE0C8</color>
+    <color name="tile8">#F2B179</color>
+    <color name="tile16">#F59563</color>
+    <color name="tile32">#F67C5F</color>
+    <color name="tile64">#F65E3B</color>
+    <color name="tile128">#EDCF72</color>
+    <color name="tile256">#EDCC61</color>
+    <color name="tile512">#EDC850</color>
+    <color name="tile1024">#EDC53F</color>
+    <color name="tile2048">#EDC22E</color>
+    <color name="tileSuper">#3C3A32</color>
+
+    <!-- Цвета текста на плитках -->
+    <color name="textColorDark">#776E65</color>
+    <color name="textColorLight">#F9F6F2</color>
+
+    <!-- Цвета для состояний игры -->
+    <color name="gameOverBackground">#80FFFFFF</color>
+    <color name="gameOverText">#776E65</color>
+    <color name="winBackground">#80FFFFFF</color>
+    <color name="winText">#776E65</color>
+</resources>

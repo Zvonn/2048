@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Базовый стиль приложения -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/buttonBackground</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item>
+        <item name="colorAccent">@color/tile2048</item>
+        <item name="android:windowBackground">@color/appBackground</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Стиль для заголовка игры -->
+    <style name="TitleStyle">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Стиль для показателей очков -->
+    <style name="ScoreStyle">
+        <item name="android:textSize">@dimen/score_text_size</item>
+        <item name="android:textColor">@color/scoreTextColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/score_padding</item>
+        <item name="android:background">@drawable/score_background</item>
+    </style>
+
+    <!-- Стиль для кнопки новой игры -->
+    <style name="ButtonStyle">
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+    </style>
+
+    <!-- Стиль для инструкций -->
+    <style name="InstructionsStyle">
+        <item name="android:textSize">@dimen/instructions_text_size</item>
+        <item name="android:textColor">@color/instructionsColor</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2048</string>
+    <string name="score">Счет: %1$d</string>
+    <string name="best_score">Рекорд: %1$d</string>
+    <string name="new_game">Новая игра</string>
+    <string name="game_over">Игра окончена!</string>
+    <string name="you_win">Вы выиграли!</string>
+    <string name="instructions">Свайпайте для перемещения плиток.\nСоединяйте одинаковые плитки, чтобы достичь 2048!</string>
+</resources>
