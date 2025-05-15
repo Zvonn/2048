@@ -151,13 +151,13 @@ class GameLogic(private val context: Context) {
                                     grid[row][targetCol + 1]?.mergedFrom == null))) {
 
                     if (grid[row][targetCol + 1] == null) {
-                        // Перемещаемся в пустую ячейку
+
                         grid[row][targetCol + 1] = grid[row][targetCol]
                         grid[row][targetCol] = null
                         targetCol++
                         moved = true
                     } else {
-                        // Объединяемся с такой же плиткой
+
                         val mergedValue = grid[row][targetCol]!!.value * 2
                         grid[row][targetCol + 1] = Tile(mergedValue)
                         grid[row][targetCol + 1]!!.mergedFrom = arrayOf(grid[row][targetCol + 1]!!, grid[row][targetCol]!!)
@@ -255,7 +255,7 @@ class GameLogic(private val context: Context) {
     }
 
     private fun checkForWin() {
-        // Проверяем, есть ли на доске плитка со значением 2048
+
         for (row in 0 until 4) {
             for (col in 0 until 4) {
                 if (grid[row][col]?.value == 2048) {
@@ -267,9 +267,8 @@ class GameLogic(private val context: Context) {
     }
 
     private fun canMove(): Boolean {
-        // Проверяем, можно ли сделать ход
 
-        // Есть ли пустые ячейки
+
         for (row in 0 until 4) {
             for (col in 0 until 4) {
                 if (grid[row][col] == null) {
@@ -278,12 +277,10 @@ class GameLogic(private val context: Context) {
             }
         }
 
-        // Можно ли объединить соседние плитки
         for (row in 0 until 4) {
             for (col in 0 until 4) {
                 val tile = grid[row][col]
 
-                // Проверяем соседние клетки
                 if (row < 3 && tile?.value == grid[row + 1][col]?.value) {
                     return true
                 }

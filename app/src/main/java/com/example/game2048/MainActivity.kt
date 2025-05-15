@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        // Сохраняем лучший результат
+
         val sharedPref = getSharedPreferences("game_prefs", MODE_PRIVATE)
         with(sharedPref.edit()) {
             putInt("best_score", gameLogic.getBestScore())
